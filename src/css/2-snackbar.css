@@ -1,0 +1,60 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 16px;
+    max-width: 360px;
+    padding: 20px;
+}
+
+.del {
+    display: flex;
+    justify-content: flex-start;
+}
+
+input[type="number"] {
+    padding: 8px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    outline: none;
+}
+
+fieldset {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+       
+}
+
+fieldset legend {
+    margin-left: 0;
+    padding: 0 4px;
+    text-align: start;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #2e2f42;
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+     font: 400 16px / 150% var(--font-family);;
+}
+
+button[type="submit"] {
+    background-color: #4e75ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    max-width: 360px;
+}
+
+button[type="submit"]:hover {
+    background-color: #6c8cff;
+}
